@@ -1,0 +1,33 @@
+{
+  "name": "prototipo06",
+  "version": "1.0.0",
+  "description": "Web application with Gulp and Karma and Jasmine",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manolomaroto/prototype06.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Gulp",
+    "Karma",
+    "Jasmine"
+  ],
+  "author": "Manuel Gonzalez Maroto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manolomaroto/prototype06/issues"
+  },
+  "homepage": "https://github.com/manolomaroto/prototype06#readme",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-useref": "^3.1.5",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-beta"
+  }
+}
