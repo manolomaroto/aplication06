@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manolomaroto/prototype06.git"
-  },
+  "repository": "git+https://github.com/manolomaroto/prototype06.git",
   "keywords": [
     "AngularJS",
     "Gulp",

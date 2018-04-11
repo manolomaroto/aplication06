@@ -71,7 +71,7 @@ gulp.task('clean:dist', () => {
 gulp.task('watch', () => {
     gulp.watch('./css/*.css', ['inject']);
     gulp.watch('./scripts/*.js', ['jshint', 'jscs', 'inject']);
-    gulp.watch('**/*.html', {cwd: './app'}, function (event) {
+    gulp.watch('./index.html', function (event) {
     gulp.src(event.path)
       .pipe(connect.reload());
   });
